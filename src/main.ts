@@ -1,0 +1,12 @@
+import App from './App.vue';
+import { createApp } from 'vue';
+import { store } from './store/index';
+import router from '@/router';
+import apis from './apis';
+import '@/libs/terminal';
+import '@/libs/presetMobile';
+const app = createApp(App);
+app.use(store);
+app.use(router);
+app.use(apis);
+app.mount('#app');
