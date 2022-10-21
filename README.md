@@ -1,8 +1,8 @@
-# yuer-web-base-template
+# vue3-base-template
 
-##  运行
+## 
 
-安装`yarn` or `npm i`
+安装`yarn` or 1`npm i`
 
 运行`yarn dev` or `npm run dev`
 
